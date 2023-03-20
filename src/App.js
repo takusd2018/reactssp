@@ -25,29 +25,30 @@ function App() {
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-      }}
-    >
-      {/* File Uploader */}
-      For Admission Data
-      <input
-        type="file"
-        name="admission"
-        onChange={(event) => changeHandler(event, "admission")}
-        accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
-        style={{ display: "block", margin: "10px auto" }}
-      />
-      For Bonafide Data
-      <input
-        type="file"
-        name="bonafide"
-        onChange={(event) => changeHandler(event, "bonafide")}
-        accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
-        style={{ display: "block", margin: "10px auto" }}
-      />
-      {/* For Marks Data
+    <div>
+      <div
+        style={{
+          display: "flex",
+        }}
+      >
+        {/* File Uploader */}
+        For Admission Data
+        <input
+          type="file"
+          name="admission"
+          onChange={(event) => changeHandler(event, "admission")}
+          accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+          style={{ display: "block", margin: "10px auto" }}
+        />
+        For Bonafide Data
+        <input
+          type="file"
+          name="bonafide"
+          onChange={(event) => changeHandler(event, "bonafide")}
+          accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+          style={{ display: "block", margin: "10px auto" }}
+        />
+        {/* For Marks Data
       <input
         type="file"
         name="bonafide"
@@ -55,6 +56,7 @@ function App() {
         accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
         style={{ display: "block", margin: "10px auto" }}
       /> */}
+      </div>
       <br />
       <br />
       {type === "admission" ? (
