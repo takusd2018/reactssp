@@ -1,0 +1,87 @@
+{
+  "statusCode": 1,
+  "status": "Success",
+  "message": "Admission data saved Successfully. 1 Records Inserted",
+  "statusMessage": [
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "30519231019",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "46120111025",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "46120111035",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231039",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40819231049",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40819231003",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "JKA21T61",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7859",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    }
+  ]
+}

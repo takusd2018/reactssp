@@ -1,0 +1,1257 @@
+{
+  "statusCode": 1,
+  "status": "Success",
+  "message": "Admission data saved Successfully. 83 Records Inserted",
+  "statusMessage": [
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231035",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231032",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "40818231047",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "40818231053",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231018",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "11920111005",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "11920111157",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "41221441009",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231035",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231032",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231047",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231053",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231018",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "11920111005",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "11920111157",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "41221441009",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231023",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42519231029",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42520231056",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42520231058",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42520231020",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42520231057",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42516221053",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42518231058",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42518231036",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "30519231001",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "40720111100",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "40720341029",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRSLLB4846",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920231008",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40919231014",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40918231012",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40918231022",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40918231025",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40918231027",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40918231031",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920111041",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920231004",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40919231026",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920111013",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920111101",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920111108",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920111109",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "40519231014",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231039",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231033",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40818231027",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40819231022",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920111110",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "40920111068",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40919231021",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "11818231015",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "30820111049",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920231039",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "10118211052",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40918231015",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7911",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7912",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7913",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7914",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7915",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7916",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7917",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7918",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7919",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7920",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7921",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7922",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7923",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7924",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7925",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7926",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7927",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7928",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7929",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7930",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7931",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7932",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7933",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7934",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7935",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7936",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7937",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7938",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7939",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7940",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7941",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7942",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7943",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7944",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7945",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7946",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7947",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7948",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7949",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7950",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7951",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "3YRLLB7952",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111001",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111002",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111004",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111005",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111006",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111007",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "42120111009",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111011",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111015",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111016",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111017",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111018",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111020",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111021",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111023",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "42120111026",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42120111027",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "42120111028",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42119111043",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "42118111046",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "46620231003",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "46620231004",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "45920231008",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "SUCCESS",
+      "Message": "Admission data saved Successfully",
+      "University_Code": 1040,
+      "Registration_Number": "10320111030",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40919231020",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920111080",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    },
+    {
+      "Message_Type": "DUPLICATE",
+      "Message": "This Record already Received",
+      "University_Code": 1040,
+      "Registration_Number": "40920111099",
+      "College_SSP_Code": 0,
+      "Course_Code": 0,
+      "Discipline_Code": 0,
+      "Course_Year": 0
+    }
+  ]
+}
