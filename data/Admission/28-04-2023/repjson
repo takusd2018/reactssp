@@ -1,0 +1,315 @@
+{
+    "statusCode": 1,
+    "status": "Success",
+    "message": "Admission data saved Successfully. 8 Records Inserted",
+    "statusMessage": [
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "11619231004",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "40318441058",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "40320231007",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "3YRLLB7953",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "DUPLICATE",
+            "Message": "This Record already Received",
+            "University_Code": 1040,
+            "Registration_Number": "40820231023",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "40820231032",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "45419231047",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "45419441015",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "30120231007",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        }
+    ]
+}
+
+{
+    "statusCode": 1,
+    "status": "Success",
+    "message": "Admission data saved Successfully. 21 Records Inserted",
+    "statusMessage": [
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3042",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3043",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3044",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3045",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3046",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3047",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3048",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3049",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3050",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3051",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3052",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3053",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3054",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3055",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3056",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3057",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3058",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3059",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3060",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3061",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBALLB3062",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        }
+    ]
+}
