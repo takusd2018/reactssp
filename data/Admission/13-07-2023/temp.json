@@ -1,0 +1,27 @@
+{
+    "statusCode": 1,
+    "status": "Success",
+    "message": "Admission data saved Successfully. 2 Records Inserted",
+    "statusMessage": [
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBBALLBHONS40",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        },
+        {
+            "Message_Type": "SUCCESS",
+            "Message": "Admission data saved Successfully",
+            "University_Code": 1040,
+            "Registration_Number": "5YRBBALLBHONS41",
+            "College_SSP_Code": 0,
+            "Course_Code": 0,
+            "Discipline_Code": 0,
+            "Course_Year": 0
+        }
+    ]
+}

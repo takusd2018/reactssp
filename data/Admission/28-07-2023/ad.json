@@ -1,0 +1,62 @@
+[
+    {
+        "University_Code": "1040",
+        "University_name": "Karnataka State Law University, Hubli(Id: U-0227)",
+        "Academic_Year": "2223",
+        "Registration_Number": "40819231013",
+        "Student_Name": "Divyashree A ",
+        "College_Name": "Vishveswarapura Law College, Bangalore(Id: C-9806)",
+        "College_SSP_Code": "11424",
+        "Course_Name": "BA LLB",
+        "Course_Code": "101",
+        "Discipline_Code": "846",
+        "Discipline_Name": "B.A. L.L.B.",
+        "Course_Year": "4",
+        "UG_PG": "UG"
+    },
+    {
+        "University_Code": "1040",
+        "University_name": "Karnataka State Law University, Hubli(Id: U-0227)",
+        "Academic_Year": "2223",
+        "Registration_Number": "40819231047",
+        "Student_Name": "Shridevi Manjunath Devar",
+        "College_Name": "Vishveswarapura Law College, Bangalore(Id: C-9806)",
+        "College_SSP_Code": "11424",
+        "Course_Name": "BA LLB",
+        "Course_Code": "101",
+        "Discipline_Code": "846",
+        "Discipline_Name": "B.A. L.L.B.",
+        "Course_Year": "4",
+        "UG_PG": "UG"
+    },
+    {
+        "University_Code": "1040",
+        "University_name": "Karnataka State Law University, Hubli(Id: U-0227)",
+        "Academic_Year": "2223",
+        "Registration_Number": "40820231002",
+        "Student_Name": "ANU",
+        "College_Name": "Vishveswarapura Law College, Bangalore(Id: C-9806)",
+        "College_SSP_Code": "11424",
+        "Course_Name": "BA LLB",
+        "Course_Code": "101",
+        "Discipline_Code": "846",
+        "Discipline_Name": "B.A. L.L.B.",
+        "Course_Year": "3",
+        "UG_PG": "UG"
+    },
+    {
+        "University_Code": "1040",
+        "University_name": "Karnataka State Law University, Hubli(Id: U-0227)",
+        "Academic_Year": "2223",
+        "Registration_Number": "40820231006",
+        "Student_Name": "BHOOMIKA S",
+        "College_Name": "Vishveswarapura Law College, Bangalore(Id: C-9806)",
+        "College_SSP_Code": "11424",
+        "Course_Name": "BA LLB",
+        "Course_Code": "101",
+        "Discipline_Code": "846",
+        "Discipline_Name": "B.A. L.L.B.",
+        "Course_Year": "3",
+        "UG_PG": "UG"
+    }
+]
