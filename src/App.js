@@ -4,6 +4,7 @@ import Papa from "papaparse";
 import Admission from "./Components/Admission";
 import Bonafide from "./Components/Bonafide";
 import PreviousMarks from "./Components/PreviousMarks";
+import ValidateAndSegregateData from "./Components/ValidateAndSegregateData";
 
 function App() {
   //State to hold all records from csv
@@ -32,6 +33,14 @@ function App() {
         }}
       >
         {/* File Uploader */}
+        For Validation of Data
+        <input
+          type="file"
+          name="validation"
+          onChange={(event) => changeHandler(event, "validation")}
+          accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+          style={{ display: "block", margin: "10px auto" }}
+        />
         For Admission Data
         <input
           type="file"
@@ -55,6 +64,7 @@ function App() {
         onChange={(event) => changeHandler(event, "bonafide")}
         accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
         style={{ display: "block", margin: "10px auto" }}
+         <PreviousMarks dataFromCSV={dataFromCSV} />
       /> */}
       </div>
       <br />
@@ -64,8 +74,14 @@ function App() {
       ) : type === "bonafide" ? (
         <Bonafide dataFromCSV={dataFromCSV} />
       ) : (
-        <PreviousMarks dataFromCSV={dataFromCSV} />
+       <div></div>
       )}
+
+      {
+        type === "validation" ? (
+          <ValidateAndSegregateData dataFromCSV={dataFromCSV} />
+        ):<div></div>
+      }
     </div>
   );
 }
