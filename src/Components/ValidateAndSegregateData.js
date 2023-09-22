@@ -1,66 +1,56 @@
-import { CollegeData } from "../Assets/CollegeData";
-import { courseWithDic } from "../Assets/CourseData";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
 
-const ValidateAndSegregateData = ({ dataFromCSV }) => {
+const ValidateAndSegregateData =  ({ dataFromCSV }) => {
+  
   const [validData, setValidData] = useState([]);
   const [invalidData, setInvalidData] = useState([]);
-
   const apiUrl = 'http://localhost:3000/processData'; // Update the URL with your server's URL
 
-  useEffect(() => {
-    const fetchData = async () => {
-      console.log(dataFromCSV);
-      for (const csvRow of dataFromCSV) {
-        // Map CSV columns to the JSON structure expected by the API
-        const studentData = {
-          SSP_Student_ID: csvRow.SSP_Student_ID,
-          Name_As_In_Aadhaar: csvRow.Student_Name,
-          Gender: csvRow.Gender,
-        };
-
-        try {
-          // Send a POST request to the validation API for each student data
-          const response = await axios.post(apiUrl, studentData, {
-            headers: {
-              'Content-Type': 'application/json', // Set the content type
-              'Username': 'UNID1040',
-              'password': 'Scst@0227',
-            },
-          });
-
-          if (response.data.Message_Type === 'SUCCESS' && response.data.Message_Status === 'Y') {
-            // If the API response indicates that the data is valid
-            const isStudentIdInPrevValidData = validData.some(
-              (prevRow) => prevRow.SSP_Student_ID === csvRow.SSP_Student_ID
-            );
-  
-            if (!isStudentIdInPrevValidData) {
-              // If the API response indicates that the data is valid
-              setValidData((prevValidData) => [...prevValidData, csvRow]);
-            }
-          } else {
-            // If the API response indicates that the data is invalid
-            const isStudentIdInPrevInvalidData = invalidData.some(
-              (prevRow) => prevRow.SSP_Student_ID === csvRow.SSP_Student_ID
-            );
-  
-            if (!isStudentIdInPrevInvalidData) {
-              // If the API response indicates that the data is valid
-              setInvalidData((prevInvalidData) => [...prevInvalidData, csvRow]);
-
-            }
-          }
-        } catch (error) {
-          console.error('Error validating student data:', error);
-        }
-      }
+  dataFromCSV.forEach(async element => {
+    const studentData = {
+      SSP_Student_ID: element.SSP_Student_ID,
+      Name_As_In_Aadhaar: element.Student_Name,
+      Gender: element.Gender,
     };
 
-    fetchData();
-  }, []); // Empty dependency array to run the effect once
+    try {
+      // Send a POST request to the validation API for each student data
+      const response =await axios.post(apiUrl, studentData, {
+        headers: {
+          'Content-Type': 'application/json', // Set the content type
+          'Username': 'UNID1040',
+          'password': 'Scst@0227',
+        },
+      });
+
+      if (response.data.Message_Type === 'SUCCESS' && response.data.Message_Status === 'Y') {
+        // If the API response indicates that the data is valid
+        const isStudentIdInPrevValidData = validData.some(
+          (prevRow) => prevRow.SSP_Student_ID === element.SSP_Student_ID
+        );
+
+        if (!isStudentIdInPrevValidData) {
+          // If the API response indicates that the data is valid
+          setValidData((prevValidData) => [...prevValidData, element]);
+        }
+      } else {
+        // If the API response indicates that the data is invalid
+        const isStudentIdInPrevInvalidData = invalidData.some(
+          (prevRow) => prevRow.SSP_Student_ID === element.SSP_Student_ID
+        );
+
+        if (!isStudentIdInPrevInvalidData) {
+          // If the API response indicates that the data is valid
+          setInvalidData((prevInvalidData) => [...prevInvalidData, element]);
+
+        }
+      }
+    } catch (error) {
+      console.error('Error validating student data:', error);
+    }
+  });
 
   const generateCSV = (data) => {
     console.log(data);

@@ -74,14 +74,11 @@ function App() {
       ) : type === "bonafide" ? (
         <Bonafide dataFromCSV={dataFromCSV} />
       ) : (
-       <div></div>
-      )}
-
-      {
         type === "validation" ? (
           <ValidateAndSegregateData dataFromCSV={dataFromCSV} />
         ):<div></div>
-      }
+      )}
+
     </div>
   );
 }

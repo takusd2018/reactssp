@@ -1,3 +1,6 @@
-﻿Student_Name,Course_Year,College_Name,Course_Name,UG_PG,Student_Father_Name,Student_Mother_Name,Gender,Admission_Year,University_Registration_Number
-Sparsh Umesh Rattihalli,1,"Karnataka State Law University, Hubli(Main Campus)",BBA LLB HONS,UG,Umesh Rattihalli ,Vaishali Rattihalli ,1,2022,5YRBBALLBHONS29
-Divya Jadi ,1,"Karnataka State Law University, Hubli(Main Campus)",BBA LLB HONS,UG,Ramesh Jadi ,Priya Jadi,2,2022,5YRBBALLBHONS30
+﻿Student_Name,Course_Year,College_Name,Course_Name,UG_PG,Student_Father_Name,Student_Mother_Name,Gender,Admission_Year,University_Registration_Number,SSP_Student_ID
+Sparsh Umesh Rattihalli,1,"Karnataka State Law University, Hubli(Main Campus)",BBA LLB HONS,UG,Umesh Rattihalli ,Vaishali Rattihalli ,1,2022,5YRBBALLBHONS29,123123123
+dasdas,1,"Karnataka State Law University, Hubli(Main Campus)",BBA LLB HONS,UG,Ramesh Jadi ,Priya Jadi,2,2022,5YRBBALLBHONS30,123123123
+asd,2,"Karnataka State Law University, Hubli(Main Campus)",BBA LLB HONS,UG,Ramesh Jadi ,Priya Jadi,2,2022,5YRBBALLBHONS31,123123124
+sdasd,3,"Karnataka State Law University, Hubli(Main Campus)",BBA LLB HONS,UG,Ramesh Jadi ,Priya Jadi,2,2022,5YRBBALLBHONS32,123123125
+qwe,4,"Karnataka State Law University, Hubli(Main Campus)",BBA LLB HONS,UG,Ramesh Jadi ,Priya Jadi,2,2022,5YRBBALLBHONS33,123123126
