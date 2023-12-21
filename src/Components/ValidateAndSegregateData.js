@@ -1,57 +1,63 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-
-const ValidateAndSegregateData =  ({ dataFromCSV }) => {
-  
+const ValidateAndSegregateData = ({ dataFromCSV }) => {
+  console.log(dataFromCSV);
   const [validData, setValidData] = useState([]);
   const [invalidData, setInvalidData] = useState([]);
+  const [dataProcessed, setDataProcessed] = useState(false);
   const apiUrl = 'http://localhost:3000/processData'; // Update the URL with your server's URL
 
-  dataFromCSV.forEach(async element => {
-    const studentData = {
-      SSP_Student_ID: element.SSP_Student_ID,
-      Name_As_In_Aadhaar: element.Student_Name,
-      Gender: element.Gender,
-    };
-
-    try {
-      // Send a POST request to the validation API for each student data
-      const response =await axios.post(apiUrl, studentData, {
-        headers: {
-          'Content-Type': 'application/json', // Set the content type
-          'Username': 'UNID1040',
-          'password': 'Scst@0227',
-        },
-      });
-
-      if (response.data.Message_Type === 'SUCCESS' && response.data.Message_Status === 'Y') {
-        // If the API response indicates that the data is valid
-        const isStudentIdInPrevValidData = validData.some(
-          (prevRow) => prevRow.SSP_Student_ID === element.SSP_Student_ID
-        );
-
-        if (!isStudentIdInPrevValidData) {
-          // If the API response indicates that the data is valid
-          setValidData((prevValidData) => [...prevValidData, element]);
-        }
-      } else {
-        // If the API response indicates that the data is invalid
-        const isStudentIdInPrevInvalidData = invalidData.some(
-          (prevRow) => prevRow.SSP_Student_ID === element.SSP_Student_ID
-        );
-
-        if (!isStudentIdInPrevInvalidData) {
-          // If the API response indicates that the data is valid
-          setInvalidData((prevInvalidData) => [...prevInvalidData, element]);
-
+  useEffect(() => {
+    const processData = async () => {
+      const newValidData = [];
+      const newInvalidData = [];
+  
+      for (const element of dataFromCSV) {
+        const studentData = {
+          Gender: element.Gender,
+          SSP_Student_ID: element.SSP_Student_ID,
+          Name_As_In_Aadhaar: element.Student_Name,
+        };
+  
+        try {
+          const response = await axios.post(apiUrl, studentData, {
+            headers: {
+              'Content-Type': 'application/json',
+            },
+          });
+  
+          if (response.data.Message_Type === 'SUCCESS' && response.data.Message_Status === 'Y') {
+            const isStudentIdInPrevValidData = newValidData.some(
+              (prevRow) => prevRow.SSP_Student_ID === element.SSP_Student_ID
+            );
+  
+            if (!isStudentIdInPrevValidData) {
+              newValidData.push(element);
+            }
+          } else {
+            const isStudentIdInPrevInvalidData = newInvalidData.some(
+              (prevRow) => prevRow.SSP_Student_ID === element.SSP_Student_ID
+            );
+  
+            if (!isStudentIdInPrevInvalidData) {
+              newInvalidData.push(element);
+            }
+          }
+        } catch (error) {
+          console.error('Error validating student data:', error);
         }
       }
-    } catch (error) {
-      console.error('Error validating student data:', error);
-    }
-  });
-
+  
+      // Set the dataProcessed flag to true once the processing is complete
+      setDataProcessed(true);
+      setValidData(newValidData);
+      setInvalidData(newInvalidData);
+    };
+  
+    // Call processData when the component mounts
+    processData();
+  }, [dataFromCSV, apiUrl]);
   const generateCSV = (data) => {
     console.log(data);
     if (data.length === 0) {
@@ -59,7 +65,7 @@ const ValidateAndSegregateData =  ({ dataFromCSV }) => {
       return;
     }
 
-    const columns = Object.keys(data[0]); // Extract column names from the first object
+    const columns = Object.keys(data[0]);
     const csvContent =
       columns.join(',') +
       '\n' +
@@ -67,7 +73,7 @@ const ValidateAndSegregateData =  ({ dataFromCSV }) => {
         .map((row) =>
           columns
             .map((col) =>
-              `"${row[col].toString().replace(/"/g, '""')}"` // Wrap values in double quotes
+              `"${row[col].toString().replace(/"/g, '""')}"`
             )
             .join(',')
         )
@@ -81,6 +87,11 @@ const ValidateAndSegregateData =  ({ dataFromCSV }) => {
     a.click();
     window.URL.revokeObjectURL(url);
   };
+
+  // Render loading message while data is being processed
+  if (!dataProcessed) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div>

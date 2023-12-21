@@ -36,7 +36,7 @@ const Admission = ({ dataFromCSV }) => {
         (data) => `{
                 "University_Code": "1040",
                 "University_name": "Karnataka State Law University, Hubli(Id: U-0227)",
-                "Academic_Year": "2223",
+                "Academic_Year": "2324",
                 "Registration_Number": "${
                   data["University_Registration_Number"]
                 }",

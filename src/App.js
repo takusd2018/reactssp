@@ -3,27 +3,34 @@ import { useState } from "react";
 import Papa from "papaparse";
 import Admission from "./Components/Admission";
 import Bonafide from "./Components/Bonafide";
-import PreviousMarks from "./Components/PreviousMarks";
 import ValidateAndSegregateData from "./Components/ValidateAndSegregateData";
 
 function App() {
   //State to hold all records from csv
-
+  let i=0;
   const [dataFromCSV, setDataFromCSV] = useState([]);
 
   const [type, setType] = useState("");
-  const changeHandler = (event, type) => {
-    // Passing file data (event.target.files[0]) to parse using Papa.parse
-    Papa.parse(event.target.files[0], {
-      header: true,
-      skipEmptyLines: true,
-      complete: function (results) {
-        setDataFromCSV(results.data);
-        setType(type);
-        console.log(dataFromCSV);
-      },
-    });
+  const changeHandler = async (event, type) => {
+    try {
+      const parsedData = await new Promise((resolve, reject) => {
+        Papa.parse(event.target.files[0], {
+          header: true,
+          skipEmptyLines: true,
+          complete: (results) => resolve(results.data),
+          error: (error) => reject(error),
+        });
+      });
+  
+      setDataFromCSV([]);
+      setDataFromCSV(parsedData);
+      setType(type);
+      console.log(parsedData);
+    } catch (error) {
+      console.error('Error parsing CSV:', error);
+    }
   };
+  
 
   return (
     <div>
@@ -75,7 +82,9 @@ function App() {
         <Bonafide dataFromCSV={dataFromCSV} />
       ) : (
         type === "validation" ? (
-          <ValidateAndSegregateData dataFromCSV={dataFromCSV} />
+          <div><ValidateAndSegregateData dataFromCSV={dataFromCSV} />
+          {++i}
+          </div>
         ):<div></div>
       )}
 

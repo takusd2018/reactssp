@@ -42,7 +42,7 @@ const Bonafide = ({ dataFromCSV }) => {
     <div>
       {dataFromCSV?.map((data) => {
         return `{
-                        "Academic_Year_code":"2223",
+                        "Academic_Year_code":"2324",
                         "University_Registration_Number":"${data["University_Registration_Number"]
           }",
                         "Student_Name":"${data["Student_Name"]}",
@@ -74,7 +74,7 @@ const Bonafide = ({ dataFromCSV }) => {
                         "Is_Lateral_Entry":"N",
                         "Name_As_In_Aadhaar":"${data["Student_Name"]}",
                         "DOB_As_In_Tenth":"", 
-                        "SSP_Student_ID":"",
+                        "SSP_Student_ID":"${data["SSP_Student_ID"]}",
                         "Hash_of_Student_Aadhaar":"",
                         "Vault_Reference_Number":"",
                         "Previous_Course_Passed_Year":"", 
@@ -95,10 +95,10 @@ const Bonafide = ({ dataFromCSV }) => {
                         "PASS_or_FAIL":"",
                         "Promoted":"",
                         "Temp_University_Registration_Number":"",
-                        "Mobile_Number":"",
+                        "Mobile_Number":"${data["Mobile_Number"]}",
                         "Percentile":"",
                         "Encrypted_Mobile_Number":"",
-                        "Admission_Approved":"",
+                        "Admission_Approved":"Y",
                         "UG_PG": "${data["Course_Name"] === "L.L.M." ? "PG" : "UG"
           }"
             },`;
