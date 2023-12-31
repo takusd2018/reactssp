@@ -41,6 +41,7 @@ const ValidateAndSegregateData = ({ dataFromCSV }) => {
             );
   
             if (!isStudentIdInPrevInvalidData) {
+              element["Message"] = response.data.Message;
               newInvalidData.push(element);
             }
           }
