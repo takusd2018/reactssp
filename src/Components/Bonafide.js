@@ -95,7 +95,7 @@ const Bonafide = ({ dataFromCSV }) => {
                         "PASS_or_FAIL":"",
                         "Promoted":"",
                         "Temp_University_Registration_Number":"",
-                        "Mobile_Number":"${data["Mobile_Number"]}",
+                        "Mobile_Number":"${data["Mobile_Number"]?.length == 10 ? data["Mobile_Number"] : ""}",
                         "Percentile":"",
                         "Encrypted_Mobile_Number":"",
                         "Admission_Approved":"Y",
