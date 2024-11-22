@@ -42,9 +42,8 @@ const Bonafide = ({ dataFromCSV }) => {
     <div>
       {dataFromCSV?.map((data) => {
         return `{
-                        "Academic_Year_code":"2324",
-                        "University_Registration_Number":"${data["University_Registration_Number"]
-          }",
+                        "Academic_Year_code":"2425",
+                        "University_Registration_Number":"${data["University_Registration_Number"]}",
                         "Student_Name":"${data["Student_Name"]}",
                         "Student_Father_Name":"${data["Student_Father_Name"]}",
                         "Student_Mother_Name":"${data["Student_Mother_Name"]}",
@@ -55,10 +54,8 @@ const Bonafide = ({ dataFromCSV }) => {
                         "College_Name":"${data["College_Name"]}",
                         "College_SSP_Code":"${data["College_SSP_Code"]}",
                         "College_Type":"${data["College_Type"]}",
-                        "College_Type_SSP_Code":"${data["College_Type_SSP_Code"]
-          }",
-                        "College_District_Name":"${data["College_District_Name"]
-          }",
+                        "College_Type_SSP_Code":"${data["College_Type_SSP_Code"]}",
+                        "College_District_Name":"${data["College_District_Name"]}",
                         "District_SSP_Code":"${data["District_SSP_Code"]}",
                         "College_Taluk_Name":"${data["College_Taluk_Name"]}",
                         "Taluk_SSP_Code":"${data["Taluk_SSP_Code"]}",
@@ -95,16 +92,12 @@ const Bonafide = ({ dataFromCSV }) => {
                         "PASS_or_FAIL":"",
                         "Promoted":"",
                         "Temp_University_Registration_Number":"",
-                        "Mobile_Number":"${data["Mobile_Number"]?.length == 10 ? data["Mobile_Number"] : ""}",
-                        "Percentile":"",
-                        "Encrypted_Mobile_Number":"",
-                        "Admission_Approved":"Y",
-                        "UG_PG": "${data["Course_Name"] === "L.L.M." ? "PG" : "UG"
-          }"
+                        "UG_PG": "${data["Course_Name"] === "L.L.M." ? "PG" : "UG"}"
             },`;
       })}
     </div>
   );
 };
 
+//"Mobile_Number":"${data["Mobile_Number"]?.length == 10 ? data["Mobile_Number"] : ""}",
 export default Bonafide;

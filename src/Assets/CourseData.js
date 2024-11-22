@@ -41,4 +41,10 @@ export const courseWithDic = [
     Descipline_Code: "846",
     Descipline_name: "B.A. L.L.B.",
   },
+  {
+    Course_Name: "B COM LL B (HONS)",
+    Course_Code: "547",
+    Descipline_Code: "3388",
+    Descipline_name: "B COM LLB HONS",
+  },
 ];
