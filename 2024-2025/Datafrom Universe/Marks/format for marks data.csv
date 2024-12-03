@@ -1,0 +1,2 @@
+﻿University_Registration_Number,Student_Name,Previous_Year_SSP_College_Name,Previous_Year_SSP_Course_Name,Previous_Course_Passed_Year,Previous_Year_Course_Year,UG_PG,Previous_Year_Max_Marks,Previous_Year_Obtained_Marks,Previous_Year_Percentage_Obtained,PASS_or_FAIL,Promoted
+,,,,,,,,,,If PASS then 'P' else 'F' (Mandatory),If Promoted then 'Y' else 'N' (Mandatory)
